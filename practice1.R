@@ -4,7 +4,7 @@ p_load(tidyverse,RODBC,tidycensus)
 # create an empty database in MS access
 # build connection to that database
 # (must specify full file path, apparently)
-dta <- odbcConnectAccess2007("C:/Users/Joe/Dropbox (University of Oregon)/My PC (DESKTOP-8RMGF3S)/Documents/howdb/wapo_shootings.accdb") 
+dta <- odbcConnectAccess2007("C:/Users/Joem/Dropbox (University of Oregon)/My PC (DESKTOP-8RMGF3S)/Documents/howdb/wapo_shootings.accdb") 
 
 # get the names of tables in the database
 sqlTables(dta)
